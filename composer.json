@@ -1,0 +1,29 @@
+{
+  "name": "cast/model",
+  "description" : "Nested models",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cast\\Model\\": "src/"
+    },
+    "classmap": [
+      "src/",
+      "tests/"
+    ],
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cast\\Model\\Tests\\": "tests/"
+    },
+    "classmap": ["tests/stubs"]
+  }
+}
